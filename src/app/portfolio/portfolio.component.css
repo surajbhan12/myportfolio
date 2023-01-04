@@ -1,0 +1,134 @@
+.container{
+    height:100%;
+    width:100%;
+
+}
+.topdiv{
+      display:flex;
+      height:100px;
+      width: 100%;
+      justify-content: center;
+      box-shadow: 0 8px 6px 0px var(--secondary-color);
+
+}
+.title{
+    font-size: 56px;
+    margin-top: 35px;
+    color: var(--primary-color);
+    text-shadow: 1px 5px 10px var(--primary-shadow),1px 1px 10px var(--primary-shadow);
+}
+.containtarea{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.containtarea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.icons img{
+    width: 55px;   
+    height: 45px; 
+}
+.icons img:hover{
+    filter: invert(27%)
+            sepia(51%)
+            saturate(2878%)
+            hue-rotate(346deg)
+            brightness(104%)
+            contrast(97%);  
+}
+p{
+    color: var(--primary-color);
+    text-align: center;
+}
+hr{
+    margin-top: 30px;
+    background-color: var(--secondary-color);
+    height: 1px;
+    border: none;
+    width:100%;
+}
+.maincontent{
+    background-color: var(--background-secondary);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+.summarydiv{
+    color:white;
+    text-align: center;
+}
+.resumediv ul li {
+    text-decoration: none;
+}
+.resumediv ul li a{
+
+    border-radius: 5px;
+    color:var(--primary-color);
+    font-size: large;
+    text-decoration: none;
+}
+.resumediv ul li a:hover{
+    color:red;
+    border-radius: 5px;
+    background-color: white;
+    font-size: large;
+    transition: .5s;
+}
+.projectdiv ul li {
+    text-decoration: none;
+}
+.projectdiv ul li a{
+    margin: 10px;
+    margin-top: 10px;
+    padding-top:0px;
+    font-size: large;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.projectdiv ul li a:hover{
+    color:red;
+    border-radius: 5px;
+    background-color: white;
+    font-size: large;
+    transition: .5s;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 200px;
+    width: 100px;
+    color:var(--primary-color)
+  }
+  
+  .card:hover {
+    background-color: var(--primary-shadow);
+    box-shadow: 0 8px 16px 0 var(--secondary-color);
+    color: var(--background-secondary);
+  }
+  
+  .divproject {
+    margin: 0%;
+    padding: 0%;
+    padding: 2px 16px;
+  }
+  .cardview{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .skill ul li{
+    color:whitesmoke;
+    display:inline;
+    margin-left: 25px;
+  }
